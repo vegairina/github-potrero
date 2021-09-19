@@ -1,7 +1,16 @@
-body{background-color: #27AE60;}
-#titulo{background-color: #C0392B;color:white;text-align:center;}
-.letritaizq{background-color: #C0392B;color:white;text-align:left;}
-.letritad{background-color: #C0392B;color:white;text-align:center; font:  150% sans-serif}
+body{background-color: green}
+.musica{font-family: cursive;font-style: italic;font-stretch: condensed;text-align: center;text-decoration: underline;}
+.mariachi{}
 p{font-family: cursive;font-style: italic;}
-.lista{font-weight: bolder;font-variant: normal;}
-.letritac{background-color: #C0392B;color:white;text-align:center}
+a.letritad { padding:20px 20px; text-decoration: none;font-size: 20px;margin:20px 100px 10px 105px;background-color: #D0D3D4;background-size: 20px;color:#424949;display: inline-block;box-shadow: 5px 5px 5px 5px #515A5A;border: 5px solid:black}
+a:hover{box-shadow: 5px 0px 5px 0px #515A5A;background-color: #196F3D;}
+header{height: 200px;background-image: url(../imagenes/tacosnegro.jpg);color:white; overflow: hidden;}
+nav {background-color: #D0D3D4; }
+section{margin-top: 1%;background-color:#D0D3D4;padding: 10px;border: 5px solid black ;float: left;width: 55%;height: 800px;overflow: auto;
+ position:  absolute;}
+aside.LATERAL {float: right;;width: 41.7%; height: 850px;box-decoration-break: clone;border: 2px solid grey}
+
+footer{background-color:#D0D3D4;clear: both;}
+div.iconowpp{ border-radius:50%;width: 95px;height: auto;position: fixed;top: 65%; right: 2%}
+div.iconoinsta{ top: 38%;right:2% ;position: fixed;width: 95px;}
+a:hover.iconowpp {background-color: #455A64;}

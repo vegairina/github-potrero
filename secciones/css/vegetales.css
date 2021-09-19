@@ -1,5 +1,10 @@
 body{background-image: url(../imagenes/mexico.jpg);background-attachment: fixed;}
 .titulo{background-color: white;font-style: italic;}
-.parrafopollito{color: white;font-style: italic;}
-.lista{background-position: center; color:#AAB7B8;font-style: italic;}
+.parrafopollito{color: black;font-style: italic;}
+.lista{background-position: center; color:black;font-style: italic;}
 .letritac{background-color: white; color: black;font-style: italic;}
+section{width: 50%;float: left; margin-right:0;margin-top: 1.5% ;margin-left: 1.5% ;}
+section article{margin-left: 1.5%;padding: 20px;margin-bottom: 20px;background-color: #E0E0E0 ;}
+header{background-image: url(../imagenes/carne.jpg);height:90px;background-size:  cover ;}
+ aside.lado {margin-top: 1.5%;margin-left: 2%;background-color: #E0E0E0 ;float: left;width: 40%; height: 100%;box-decoration-break: clone;border: 2px solid grey;}
+footer{clear: both;background-color:#E0E0E0 }
