@@ -8,9 +8,11 @@ header{height: 200px;background-image: url(../imagenes/tacosnegro.jpg);color:whi
 nav {background-color: #D0D3D4; }
 section{margin-top: 1%;background-color:#D0D3D4;padding: 10px;border: 5px solid black ;float: left;width: 55%;height: 800px;overflow: auto;
  position:  absolute;}
-aside.LATERAL {float: right;;width: 41.7%; height: 850px;box-decoration-break: clone;border: 2px solid grey}
-
+aside.LATERAL {float: right ; width: 40%;margin-top: 1%;margin-left: 1%;height:400px;box-decoration-break: clone;border: 2px solid grey; background-color: #E5E8E8}
+aside.LATERAL2 {float:right ; width: 40%;margin-top: 11%;margin-left: 20%;margin-bottom: 1%;box-decoration-break: clone;border: 2px solid grey; background-color: #E5E8E8; overflow;}
+aside.LATERAL3{float:right ; width: 40%;margin-left: 20%;margin-bottom: 2%;box-decoration-break: clone;border: 2px solid grey; background-color: #E5E8E8; overflow; height: 130px}
+a.LATERAL3:hover{box-shadow: 5px 0px 5px 0px #515A5A;background-color: #196F3D;}
+a:visited{background-color :#196F3D;}
 footer{background-color:#D0D3D4;clear: both;}
 div.iconowpp{ border-radius:50%;width: 95px;height: auto;position: fixed;top: 65%; right: 2%}
 div.iconoinsta{ top: 38%;right:2% ;position: fixed;width: 95px;}
-a:hover.iconowpp {background-color: #455A64;}
