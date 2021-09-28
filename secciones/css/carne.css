@@ -1,8 +1,11 @@
 *{margin: 0;padding: 0}
+@font-face {font-family: "mexico"; src: url(../../fuentes/JOKERMAN.TTF) format("truetype");}
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Brush+Script&display=swap');
 body{background-color: green}
-.parrafo{font-family: sans-serif;font-style: italic;font-weight: bolder;}
-img.tacocarne{margin-left: 0.1%}
-.letritaizq{color: #E0E0E0;margin-left: 1.5% }
+p {font-family: 'Nanum Brush Script', cursive;font-style: italic;font-weight: bolder;}
+img{width: 5vw}
+img.tacocarne{margin-left: 0.1%;width: 35vw}
+.letritaizq{color: #E0E0E0;margin-left: 1.5%;font-family: "mexico"}
 .lista{margin-left: 1.5%;font-weight: bolder;font-variant: normal;margin-left: 1.5%}
 .letritac{margin-left: 1.5%;font-family: cursive;font-style: italic;background-color:#9E9E9E;color:white;text-align:center}
 header{background-image: url(../imagenes/carne.jpg);height:90px;background-size:  cover ;}
@@ -10,5 +13,8 @@ header{background-image: url(../imagenes/carne.jpg);height:90px;background-size:
 section section{width: 53.5%;float: left; margin-right:0;margin-top: 1.5% ;margin-left: 1.5% ;}
 section section article{margin-left: 1.5%;padding: 20px;margin-bottom: 20px;background-color: #E0E0E0 ;}
 footer{clear: both;background-color:#E0E0E0 }
-div.iconowpp{ border-radius:50%;width: 95px;height: auto;position: fixed;top: 65%; right: 2%}
-div.iconoinsta{ top: 38%;right:2% ;position: fixed;width: 95px;}
+
+a.letritad { margin-left: 10px;width:200px; padding:20px 20px; text-decoration: none;font-size: 20px;margin:10px 50px 10px 105px;background-color: #D0D3D4;background-size: 20px;color:#424949;display: inline-block;box-shadow: 5px 5px 5px 5px #515A5A;border: 5px solid:black}
+a:hover{box-shadow: 5px 0px 5px 0px #515A5A;background-color: #196F3D;}
+div.iconowpp{ border-radius:50%;width:5vw;height: auto;position: fixed;top: 75%;right: 1%}
+div.iconoinsta{ top: 60%;right:1% ;position: fixed;width: 5vw;}

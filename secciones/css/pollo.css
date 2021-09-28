@@ -1,5 +1,8 @@
 body{background: url(../imagenes/marciano.jpg);background-attachment: fixed;}
-.titulo{background-color: white;font-style: italic;}
+@font-face {font-family: "mexico"; src: url( ../../fuentes/JOKERMAN.TTF) format("truetype");}
+
+h1.titulo{background-color: white;font-style: italic;font-family: "mexico"}
+img{width: 5vw}
 .parrafopollito{color: black;font-style: italic;}
 .lista{background-position: center; color: black;font-style: italic;}
 .letritac{background-color: white; color: black;font-style: italic;}
@@ -7,3 +10,7 @@ header{background-image: url(../imagenes/carne.jpg);height:90px;background-size:
  aside.lado {margin-top: 1.5%;background-color: #E0E0E0 ;float: right;width: 42.7%; height: 100%;box-decoration-break: clone;border: 2px solid grey;}
 section{width: 53.5%;float: left; margin-right:0;margin-top: 1.5% ;margin-left: 1.5% ;}
 section article{margin-left: 1.5%;padding: 20px;margin-bottom: 20px;background-color: #E0E0E0 ;}
+a.letritad { margin-left: 10px;width:200px; padding:20px 20px; text-decoration: none;font-size: 20px;margin:10px 50px 10px 105px;background-color: #D0D3D4;background-size: 20px;color:#424949;display: inline-block;box-shadow: 5px 5px 5px 5px #515A5A;border: 5px solid:black}
+a:hover{box-shadow: 5px 0px 5px 0px #515A5A;background-color: #196F3D;}
+div.iconowpp{ border-radius:50%;width:5vw;height: auto;position: fixed;top: 75%;right: 1%}
+div.iconoinsta{ top: 60%;right:1% ;position: fixed;width: 5vw;}

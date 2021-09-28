@@ -1,18 +1,34 @@
 body{background-color: green}
-.musica{font-family: cursive;font-style: italic;font-stretch: condensed;text-align: center;text-decoration: underline;}
-.mariachi{}
-p{font-family: cursive;font-style: italic;}
-a.letritad { padding:20px 20px; text-decoration: none;font-size: 20px;margin:20px 100px 10px 105px;background-color: #D0D3D4;background-size: 20px;color:#424949;display: inline-block;box-shadow: 5px 5px 5px 5px #515A5A;border: 5px solid:black}
+@font-face {font-family: "mexico"; src: url(../fuentes/JOKERMAN.TTF) format("truetype");}
+@font-face {font-family: "mexico2"; src: url(../fuentes/PRISTINA.TTF) format("truetype");
+
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Skranji&display=swap');
+
+
+.musica{font-family: "mexico2";font-style: italic;font-stretch: condensed;text-align: center;text-decoration: underline; font-size: 2rem;margin-top: 5%}
+h1.donde{text-align: center;}
+  img{width: 5vw}
+  .tacografia{width: 54vw;margin-top: 5%}
+.imagen{width: 40vw}
+.mapa{width: 38.4vw}
+h1.mexico{font-size: 3rem;font-family:"mexico";margin-bottom: 1%;color: #A6ACAF}
+h1{font-size: 2.5rem;font-family: "mexico2"}
+  h2{font-size: 1rem;font-family: 'Skranji', cursive;}
+p{font-family: cursive;font-style: italic;font-size: 1rem}
+a.letritad { padding:20px 20px; text-decoration: none;font-family: "mexico";font-size: 1.4rem;margin:1rem 4.5rem 1.2rem 4.5rem;background-color: #D0D3D4;background-size: 20px;color:#424949;display: inline-block;box-shadow: 5px 5px 5px 5px #515A5A;border: 5px solid:black}
+a.letritac { padding:20px 20px; text-decoration: none;font-family: "mexico";font-size: 1.2rem;margin:1rem 5rem 1rem 5rem;background-color: #D0D3D4;background-size: 20px;color:#424949;display: inline-block;box-shadow: 5px 5px 5px 5px #515A5A;border: 5px solid:black}
 a:hover{box-shadow: 5px 0px 5px 0px #515A5A;background-color: #196F3D;}
-header{height: 200px;background-image: url(../imagenes/tacosnegro.jpg);color:white; overflow: hidden;}
-nav {background-color: #D0D3D4; }
-section{margin-top: 1%;background-color:#D0D3D4;padding: 10px;border: 5px solid black ;float: left;width: 55%;height: 800px;overflow: auto;
+header{height: 200px;background-image: url(../imagenes/tacosnegro.jpg);color:white; overflow: hidden;margin-bottom: 1%}
+nav {background-color: #D0D3D4; width: 100%}
+section{margin-top: 1%;background-color:#D0D3D4;padding: 10px;border: 5px solid black ;float: left;width: 55%;height: 65.8vw;overflow: auto;
  position:  absolute;}
 aside.LATERAL {float: right ; width: 40%;margin-top: 1%;margin-left: 1%;height:400px;box-decoration-break: clone;border: 2px solid grey; background-color: #E5E8E8}
-aside.LATERAL2 {float:right ; width: 40%;margin-top: 11%;margin-left: 20%;margin-bottom: 1%;box-decoration-break: clone;border: 2px solid grey; background-color: #E5E8E8; overflow;}
-aside.LATERAL3{float:right ; width: 40%;margin-left: 20%;margin-bottom: 2%;box-decoration-break: clone;border: 2px solid grey; background-color: #E5E8E8; overflow; height: 130px}
+aside.LATERAL2 {float:right ; width: 40%;margin-top: 15%;margin-left: 20%;margin-bottom: 1%;box-decoration-break: clone;border: 2px solid grey; background-color: #E5E8E8; overflow;height: 12vw}
+aside.LATERAL3{float:right ; width: 40%;margin-left: 20%;margin-bottom: 2%;box-decoration-break: clone;border: 2px solid grey; background-color: #E5E8E8; overflow; height: 10vw}
 a.LATERAL3:hover{box-shadow: 5px 0px 5px 0px #515A5A;background-color: #196F3D;}
 a:visited{background-color :#196F3D;}
 footer{background-color:#D0D3D4;clear: both;}
-div.iconowpp{ border-radius:50%;width: 95px;height: auto;position: fixed;top: 65%; right: 2%}
-div.iconoinsta{ top: 38%;right:2% ;position: fixed;width: 95px;}
+div.iconowpp{ border-radius:50%;width:5vw;height: auto;position: fixed;top: 75%;right: 1%}
+div.iconoinsta{ top: 60%;right:1% ;position: fixed;width: 5vw;}
