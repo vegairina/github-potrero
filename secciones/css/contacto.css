@@ -2,12 +2,15 @@ body{background-color: green}
 @font-face {font-family: "mexico"; src: url(../../fuentes/JOKERMAN.TTF) format("truetype");}
 header{height: 200px;background-image: url(../imagenes/tacosnegro.jpg);color:white; overflow: hidden;}
 form{left: 20%;box-shadow: 5px 0px 5px 0px;width: 35%;padding: 20px;margin: 20px;background-color: #D0D3D4;}
-.caja{left: 30%}
+.caja{margin-left: 30vw}
+h1.receta{font-family: "mexico";}
+h1.contacto{font-family: 'Nanum Brush Script', cursive; margin-left: 20vw}
 a.letritad { margin-left: 10px;width:200px; padding:20px 20px; text-decoration: none;font-size: 20px;margin:10px 50px 10px 105px;background-color: #D0D3D4;background-size: 20px;color:#424949;display: inline-block;box-shadow: 5px 5px 5px 5px #515A5A;border: 5px solid:black}
 a:hover{box-shadow: 5px 0px 5px 0px #515A5A;background-color: #196F3D;}
-label{font-size: 15px}
+label{font-size: 15px;font-family: "mexico"}
 input, textarea{margin-bottom: 20px;width: 100%;padding: 10px; box-sizing: border-box;border: 1px solid grey}
 textarea{resize: vertical;max-height: 300px; min-height: 100px;}
 input:focus{border: 1px solid black}
-button{margin-bottom: 0px;background:grey;color:white;border:1px; box-sizing: border-box;box-shadow: 10px 0px 10px 0px; height: 50px;width: 200px;margin-left: 25%}
-button:hover{color: black}
+button{font-family: 'Nanum Brush Script', cursive;font-size: 1.5rem;background:grey;color:white;border:1px; box-sizing: border-box;box-shadow: 10px 0px 10px 0px; height: 50px;width: 200px;margin-left: 25%}
+button:hover{color: black; font-family: "mexico" ;font-size: 2rem}
+footer{margin-left: 60vw}
