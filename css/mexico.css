@@ -4,11 +4,11 @@ body{background-color: green}
 
 @import url('https://fonts.googleapis.com/css2?family=Skranji&display=swap');
 
-
+.tacoinvisible{width: 54vw;margin-top: 5%;}
 .musica{font-family: "mexico2";font-style: italic;font-stretch: condensed;text-align: center;text-decoration: underline; font-size: 2rem;margin-top: 5%}
 h1.donde{text-align: center;}
   img{width: 5vw}
-  .tacografia{width: 54vw;margin-top: 5%}
+.tacografia{width: 54vw;margin-top: 5%}
 .imagen{width: 40vw}
 .mapa{width: 38.4vw;display: flex; flex-wrap: wrap;}
 h1.mexico{font-size: 3rem;font-family:"mexico";margin-bottom: 1%;color: #A6ACAF}
@@ -32,31 +32,42 @@ a.LATERAL3:hover{box-shadow: 5px 0px 5px 0px #515A5A;background-color: #196F3D;}
 
 a:visited{background-color :#196F3D;}
 footer{background-color:#D0D3D4;clear: both;}
-div.iconowpp{display: flex; justify-content: flex-end; border-radius:50%;width:5vw;height: auto;top: 85%;position: fixed;}
-div.iconoinsta{display: flex;justify-content: flex-end; top: 70%;position: fixed;width: 5vw;}
+div.iconowpp{display: flex; justify-content: flex-end; border-radius:50%;width:5vw;height: auto;top: 85%;position: fixed;right: 4%}
+div.iconoinsta{display: flex;justify-content: flex-end; top: 70%;position: fixed;width: 5vw;right: 4%}
 
 
 /*telefono vertical*/
 @media screen and (max-width:575px){nav {flex-flow: column wrap;flex-wrap: wrap;}
 body{background-color: grey}
-section{flex: 100% ;width: 90%;flex-wrap: wrap; margin-right: 1%;   height: auto;}
+
+section{flex: 100% ;width: 90%;flex-direction: column; flex-wrap: wrap; margin-right: 1%;   height: auto;}
 h1.mexico{font-size: 1.5rem}
 a.letritad{font-size: 1rem;margin: 0}
 a.letritac{font-size: 1rem}
 .tacografia{display: none}
-aside.LATERAL{flex: 100%;width:99%; margin-top: auto;}
+aside.LATERAL{flex: 100%;width:99%; margin-top: 100%;flex-direction: column;  }
 .mapa {width: 97%;flex-direction: column;}
-aside.LATERAL2{ width:99%;flex-wrap: wrap; margin-top: 30% }
-aside.LATERAL3{ width:99%;flex-wrap: wrap;  margin-bottom: 2%}
-.mariachis{flex-wrap: wrap;}
+aside.LATERAL2{ display: none}
+aside.LATERAL3{ width:99%;flex-wrap: wrap;  margin-bottom: 2%; margin-top: 40% ; height: 10%}
+.mariachis{flex-wrap: wrap;display: none;}
+a.letritac {  padding:20px 20px;  margin:1rem 5rem 1rem 5rem; color:#424949;display: inline-block;box-shadow: 5px 5px 5px 5px #515A5A; }
+ .tacoinvisible{width: 100%;margin-top: 5%}}
 aside{ flex: 100%;   width: 100%}
 footer{display: none;}}
 /*telefono horizontal*/
 @media screen and (min-width:576px) and (max-width:767px) {body{background-color: #CB4335}
-nav {flex-flow: column wrap;flex-wrap: wrap;}
+nav {flex-flow: column wrap;flex-wrap: wrap;margin:0}
+.tacografia{display: none}
 h1.mexico{font-size: 1.5rem}
 a.letritad{font-size: 1rem; margin: 1rem 1rem 1rem 1rem}
-a.letritac{font-size: 1rem} }
+a.letritac{font-size: 1rem}
+section{flex: 100% ;width: 90%;flex-direction: column; flex-wrap: wrap; margin-right: 1%;   height: auto;}
+aside.LATERAL{flex: 100%;width:99%; margin-top: auto;flex-direction: column; margin-top: 120%}
+.mapa {width: 97%;flex-direction: column;}
+aside.LATERAL2{ width:99%;flex-direction: column; margin-top: 30% ;margin-top: 40%}
+aside.LATERAL3{ width:99%;flex-wrap: wrap;  margin-bottom: 2%}
+ .tacoinvisible{width: 100%;margin-top: 5%}
+.mariachis{flex-wrap: wrap;display: none;}}
 
 
 /*tableta*/
@@ -65,4 +76,10 @@ h1{font-size: 1.5rem;}
 p.{font-size: 1rem}
 h1.mexico{font-size: 1.5rem}
 a.letritad{font-size: .9rem; margin: 1rem 1rem 1rem 1rem}
-a.letritac{font-size: .9rem} }
+a.letritac{font-size: .9rem}
+aside.LATERAL2{ width:99%;flex-direction: column; margin-top: 30% ;margin-top: 40%}
+aside.LATERAL3{ width:99%;flex-wrap: wrap;  margin-bottom: 2%}
+.tacografia{width: 100%;margin-top: 5%}
+.tacoinvisible{display: none}}
+
+@media screen and (min-width:992px) {.tacoinvisible{display: none}}
