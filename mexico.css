@@ -1,0 +1,100 @@
+body{background-color: green}
+@font-face {font-family: "mexico"; src: url(../fuentes/JOKERMAN.TTF) format("truetype");}
+@font-face {font-family: "mexico2"; src: url(../fuentes/PRISTINA.TTF) format("truetype");}
+
+@import url('https://fonts.googleapis.com/css2?family=Skranji&display=swap');
+
+img.tacoinvisible{width: 54vw;margin-top: 5%;}
+.musica{font-family: "mexico2";font-style: italic;font-stretch: condensed;text-align: center;text-decoration: underline; font-size: 2rem;margin-top: 5%}
+h1.donde{text-align: center;}
+  img{width: 5vw}
+img.tacografia{width: 54vw;margin-top: 5%}
+.imagen{width: 40vw}
+.mapa{width: 38.4vw;display: flex; flex-wrap: wrap;}
+h1.mexico{font-size: 3rem;font-family:"mexico";margin-bottom: 1%;color: #A6ACAF}
+h1{font-size: 2.5rem;font-family: "mexico2"}
+  h2{font-size: 1rem;font-family: 'Skranji', cursive;}
+p{font-family: 'Nanum Brush Script', cursive ;font-style: italic;font-size: 1.5rem}
+
+
+
+a{display: flex;justify-content: space-between;}
+a.letritad {margin:1rem 5rem 1rem 5rem; padding:20px 20px; text-decoration: none;font-family: "mexico";font-size: 1.4rem;background-color: #D0D3D4;background-size: 20px;color:#424949;display: inline-block;box-shadow: 5px 5px 5px 5px #515A5A;border: 5px solid:black}
+a.letritac {  padding:20px 20px; text-decoration: none;font-family: "mexico";font-size: 1.2rem;margin:1rem 5rem 1rem 5rem;background-color: #D0D3D4;background-size: 20px;color:#424949;display: inline-block;box-shadow: 5px 5px 5px 5px #515A5A;border: 5px solid:black}
+a:hover{box-shadow: 5px 0px 5px 0px #515A5A;background-color: #196F3D;}
+header{height: 200px;background-image: url(../imagenes/tacosnegro.jpg);color:white; overflow: hidden;margin-bottom: 1%}
+nav {display: flex;background-color: #D0D3D4;}
+.row{display: flex;flex-wrap: wrap;}
+section{margin-top: 1%;background-color:#D0D3D4;padding: 10px;border: 5px solid black ;float: left;width: 55%;height: 65.8vw;overflow: auto;
+ position:  absolute;}
+
+aside.LATERAL {float: right ; width: 40%;margin-top: 1%;margin-left: 1%;height:400px;box-decoration-break: clone;border: 2px solid grey; background-color: #E5E8E8}
+aside.LATERAL2 { float:right ; width: 40%;margin-top: 14%;margin-left: 20%;margin-bottom: 1%;box-decoration-break: clone;border: 2px solid grey; background-color: #E5E8E8; overflow;height: 12vw}
+aside.LATERAL3{float:right ; width: 40%;margin-left: 20%;margin-bottom: 2%;box-decoration-break: clone;border: 2px solid grey; background-color: #E5E8E8; overflow; height: 10vw}
+a.LATERAL3:hover{box-shadow: 5px 0px 5px 0px #515A5A;background-color: #196F3D;}
+
+a:visited{background-color :#196F3D;}
+footer{background-color:#D0D3D4;clear: both;}
+div.iconowpp{display: flex; justify-content: flex-end; border-radius:50%;width:5vw;height: auto;top: 85%;position: fixed;right: 4%}
+div.iconoinsta{display: flex;justify-content: flex-end; top: 70%;position: fixed;width: 5vw;right: 4%}
+
+
+/*telefono vertical*/
+@media screen and (min-width:0px) and (max-width:575px){nav {flex-flow: column wrap;flex-wrap: wrap;}
+body{background-color: grey}
+
+div.row{display: flex;flex-wrap: wrap;flex-direction: row;}
+section{flex: 100% ;width: 100%;flex-direction: column; flex-wrap: wrap; margin-right: 1%;   height: auto;}
+h1.mexico{font-size: 1.5rem}
+a.letritad{font-size: 1rem;margin: 0}
+a.letritac{font-size: 1rem}
+.tacografia{display: none}
+aside.LATERAL{flex: 100%;width:99%; margin-top: 200%;flex-direction: column; display: flex; height: auto;flex-wrap: wrap;}
+.mapa {width: 97%;flex-direction: column;  display: flow-root;}
+aside.LATERAL2{ display: none}
+aside.LATERAL3{ width:99%;flex-wrap: wrap;  margin-bottom: 2%; margin-top: 40% ; height: 10%}
+.mariachis{flex-wrap: wrap;display: none;}
+a.letritac {  padding:20px 20px;  margin:1rem 5rem 1rem 5rem; color:#424949;display: inline-block;box-shadow: 5px 5px 5px 5px #515A5A; }
+img.tacoinvisible{width: 100%;margin-top: 5%}
+aside{ flex: 100%;   width: 100%}
+footer{display: none;}
+div.iconowpp{display: flex; justify-content: flex-end; border-radius:50%;width:30%;height: auto;top: 85%;position: fixed;right: 4%}
+div.iconoinsta{display: flex;justify-content: flex-end; top: 70%;position: fixed;width: 300px;right: 4%; min-width: 100px}
+img.iconowpp{min-width: 30px; max-width: 100px}
+img.iconoinsta{min-width: 30px;max-width: 100px;}}
+
+
+/*tableta*/
+@media screen and (min-width:768px)and (max-width:992px)  {body{background-color: black}
+div.row{display: flex;flex-wrap: wrap;flex-direction: row;}
+h1{font-size: 1.5rem;}
+p.{font-size: 1rem}
+h1.mexico{font-size: 1.5rem}
+a.letritad{font-size: .9rem; margin: 1rem 1rem 1rem 1rem}
+a.letritac{font-size: .9rem}
+aside.LATERAL2{flex: 100%;width:99%;flex-direction: column; margin-top: 30% ;margin-top: 40%}
+aside.LATERAL3{ width:99%;flex-wrap: wrap;  margin-bottom: 2%}
+img.tacografia{width: 100%;margin-top: 5%}
+img.tacoinvisible{display: none}
+img.iconowpp{min-width: 30px; max-width: 200px}
+img.iconoinsta{min-width: 30px;max-width: 200px;}.mariachis{flex-wrap: wrap;display: none;}}
+
+@media screen and (min-width:992px) {img.tacoinvisible{display: none}}
+
+
+/*telefono horizontal*/
+@media  screen and (max-width:767px) {nav {flex-flow: column wrap;flex-wrap: wrap;}
+body{background-color: red} div.row{display: flex;flex-wrap: wrap;flex-direction: row;}
+
+section{flex: 100% ;width: 100%;}
+aside.LATERAL{  flex: 100%;width:99%; margin-top: 100%;flex-direction: column; flex-wrap: wrap;overflow;   }
+.mapa {width: 97%;flex-direction: column;}
+aside.LATERAL2{ display: none}
+aside.LATERAL3{ left: 0%;width:99%;flex-wrap: wrap;  margin-bottom: 2%; margin-top: 40% ; height: 10%}
+.mariachis{flex-wrap: wrap;display: none;}
+a.letritac {  padding:20px 20px;  margin:1rem 5rem 1rem 5rem; color:#424949;display: inline-block;box-shadow: 5px 5px 5px 5px #515A5A; }
+ img.tacoinvisible{width: 100%;margin-top: 5%}
+ div.iconowpp{display: flex; border-radius:50%; top: 85%;position: fixed;right: 4%}
+ div.iconoinsta{display: flex; top: 70%;position: fixed; right: 4%; }
+img.iconowpp{min-width: 50px; max-width: 100px}
+img.iconoinsta{min-width: 50px;max-width: 100px;} }
