@@ -14,3 +14,18 @@ input:focus{border: 1px solid black}
 button{font-family: 'Nanum Brush Script', cursive;font-size: 1.5rem;background:grey;color:white;border:1px; box-sizing: border-box;box-shadow: 10px 0px 10px 0px; height: 50px;width: 200px;margin-left: 25%}
 button:hover{color: black; font-family: "mexico" ;font-size: 2rem}
 footer{margin-left: 60vw}
+
+/*telefono vertical*/
+@media screen and (min-width:0px) and (max-width:575px){
+body{background-color: grey;}
+}
+
+/*tableta*/
+@media screen and (min-width:768px)and (max-width:992px)  {body{background-color: black;}
+form{flex: 100% ;width: 100%;}
+.caja{margin-left: 0vw}button{flex: 100% ;width: 60%; }
+button:hover{color: black; font-family: "mexico" ;font-size: 2rem}
+footer{margin-left: 20vw;flex: 100% ;width: 100%;}}
+
+/*telefono horizontal*/
+@media  screen and (max-width:767px) { body{background-color: white;}}

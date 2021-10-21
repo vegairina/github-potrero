@@ -17,3 +17,28 @@ a.letritad { margin-left: 10px;width:200px; padding:20px 20px; text-decoration: 
 a:hover{box-shadow: 5px 0px 5px 0px #515A5A;background-color: #196F3D;}
 div.iconowpp{ border-radius:50%;width:5vw;height: auto;position: fixed;top: 85%;right: 1%}
 div.iconoinsta{ top: 70%;right:1% ;position: fixed;width: 5vw;}
+
+
+/*telefono vertical*/
+
+@media screen and (min-width:0px) and (max-width:575px){body{background-color: grey}
+section{flex: 100% ;width: 100%;flex-direction: column; flex-wrap: wrap; margin-right: 1%;  height: auto;}
+aside.lado{display: none;}
+aside.lado1{display: none;}
+aside.lado2{display: none;}}
+
+/*telefono horizontal*/
+ @media screen and (min-width:576px) and (max-width:767px)  {body{background-color: black}
+aside.lado{display: none;}}
+
+
+
+
+/*tableta*/
+@media screen and (min-width:768px) and (max-width:992px)  {body{background-color: black}
+section{flex: 100% ;width: 100%;flex-direction: column; flex-wrap: wrap; margin-right: 1%;  height: auto;}
+aside.lado{display: none;}
+aside.lado1{display: none;}
+ aside.lado2{flex: 100% ; min-width: 30px; max-width: 200px}
+img.iconowpp{min-width: 30px; max-width: 200px}
+img.iconoinsta{min-width: 30px;max-width: 200px;}}
