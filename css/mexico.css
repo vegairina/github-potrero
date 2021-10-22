@@ -71,7 +71,7 @@ img.iconoinsta{min-width: 50px;max-width: 100px;}}
 
 /*tableta*/
 @media screen and (min-width:768px)and (max-width:992px)  {body{background-color: black}
-
+footer{background-color: black}
 h1{font-size: 1.5rem;}
 p.{font-size: 1rem}
 h1.mexico{font-size: 1.5rem}
@@ -92,7 +92,7 @@ img.iconoinsta{min-width: 30px;max-width: 200px;}.mariachis{flex-wrap: wrap;disp
 /*telefono horizontal*/
 @media  screen and (max-width:767px) {nav {flex-flow: column wrap;flex-wrap: wrap;}
 body{background-color: red}
-
+footer{background-color: red}
 section{flex: 100% ;width: 100%;}
 aside.LATERAL{  flex: 100%;width:99%; margin-top: 100%;flex-direction: column; flex-wrap: wrap;overflow;   }
 .mapa {width: 97%;flex-direction: column;}
