@@ -13,27 +13,29 @@ aside.LATERAL{height:50vw;}
   img{width: 5vw}
 img.tacografia{width: 54vw;margin-top: 5%}
 .imagen{width: 40vw}
-.mapa{width: 38.4vw;display: flex; flex-wrap: wrap;}
+.mapa{width: 36.5vw;display: flex; flex-wrap: wrap;margin: 20px 0px 20px 20px;}
 h1.mexico{font-size: 3rem;font-family:"mexico";margin-bottom: 1%;color: #A6ACAF}
 h1{font-size: 2.5rem;font-family: "mexico2"}
   h2{font-size: 1rem;font-family: 'Skranji', cursive;}
 p{font-family: 'Nanum Brush Script', cursive ;font-style: italic;font-size: 1.5rem}
 a.btn{background-color: black; color: white}
 a.btn:hover{background-color: green; font-family: "mexico2";color: white;box-shadow: 5px 0px 5px 0px #515A5A;}
-
+button.si {background-color: #D0D3D4;font-size: 16px;padding: 14px 40px;font-family: "mexico2";}
+button.si:hover {box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);}
 
 a{display: flex;justify-content: space-between;}
 a.letritad {margin:1rem 5rem 1rem 5rem; padding:20px 20px; text-decoration: none;font-family: "mexico";font-size: 1.4rem;background-color: #D0D3D4;background-size: 20px;color:#424949;display: inline-block;box-shadow: 5px 5px 5px 5px #515A5A;border: 5px solid:black}
 a.letritac {  padding:20px 20px; text-decoration: none;font-family: "mexico";font-size: 1.2rem;margin:1rem 5rem 1rem 5rem;background-color: #D0D3D4;background-size: 20px;color:#424949;display: inline-block;box-shadow: 5px 5px 5px 5px #515A5A;border: 5px solid:black}
 a:hover{box-shadow: 5px 0px 5px 0px #515A5A;background-color: #196F3D;}
-header{height: 200px;background-image: url(../imagenes/tacosnegro.jpg);color:white; overflow: hidden;margin-bottom: 1%}
+header{height: 200px;background-image: url(../imagenes/tacosnegro.jpg);
+  color:white; overflow: hidden;margin-bottom: 1%}
 nav {display: flex;background-color: #D0D3D4;}
 
 section{margin-top: 1%;background-color:#D0D3D4;padding: 10px;border: 5px solid black ;float: left;width: 55%;height: 65.8vw;overflow: auto;
  position:  absolute;}
 
-aside.LATERAL {float: right ; width: 40%;margin-top: 1%;margin-left: 1%;height:400px;box-decoration-break: clone;border: 2px solid grey; background-color: #E5E8E8}
-aside.LATERAL2 { float:right ; width: 40%;margin-top: 14%;margin-left: 20%;margin-bottom: 1%;box-decoration-break: clone;border: 2px solid grey; background-color: #E5E8E8; overflow;height: 12vw}
+aside.LATERAL {float: right ; width: 40%;margin-top: 1%;margin-left: 1%;height:auto;box-decoration-break: clone;border: 2px solid grey; background-color: #E5E8E8}
+aside.LATERAL2 { float:right ; width: 40%; margin-top: 3%;margin-left: 20%;margin-bottom: 1%;box-decoration-break: clone;border: 2px solid grey; background-color: #E5E8E8; overflow;height: 12vw}
 aside.LATERAL3{float:right ; width: 40%;margin-left: 20%;margin-bottom: 2%;box-decoration-break: clone;border: 2px solid grey; background-color: #E5E8E8; overflow; height: 10vw}
 a.LATERAL3:hover{box-shadow: 5px 0px 5px 0px #515A5A;background-color: #196F3D;}
 
@@ -46,6 +48,8 @@ div.iconoinsta{display: flex;justify-content: flex-end; top: 70%;position: fixed
 /*telefono vertical*/
 @media screen and (min-width:0px) and (max-width:575px){nav {flex-flow: column wrap;flex-wrap: wrap;}
 body{background-color: grey}
+
+
 
 
 section{flex: 100% ;width: 100%;flex-direction: column; flex-wrap: wrap; margin-right: 1%;   height: auto;}
